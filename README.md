@@ -157,4 +157,4 @@ Database Structure
                     POST        /vote                   delete vote from object array
 
 
-    Uygulama geliştirme sürecinde bu dökümana güncellemeler yapılabilir.
+  Uygulama geliştirme sürecinde bu dökümana güncellemeler yapılabilir.
