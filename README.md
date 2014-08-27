@@ -142,8 +142,8 @@ Database Structure
                     PUT         /register               insert new user
                     POST        /user                   update user fields
                     GET         /user/{:username}       get userdata by username
-                    POST        /login                  check data, if true, return token
-                    POST        /token                  check token validation
+                    POST        /login                  check data, if true, create session
+                    
 
                 Votes
 
