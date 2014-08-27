@@ -1,27 +1,19 @@
-Proje Adı:
-  
-  Ask Me Baby
+# Ask Me Baby
 
-Proje Tanımı:
+## Tanım
 
- Başta MaviDurak IO ve tüm türk geliştiriciler için soru ve cevap platformu, stackOverFlow adlı mucize platformun türkçeleştirilmiş bi klonu.
-Kullanıcıların programlama dilleri ve teknolojiler hakkında çeşitli etiketlerle yeni sorular sorabileceği, sorulan sorulara cevaplar verip,
-verilen cevaplara yorum ve puan verebileceği bir uygulama.
+Başta MaviDurak IO ve tüm türk geliştiriciler için soru ve cevap platformu, stackOverFlow adlı mucize platformun türkçeleştirilmiş bi klonu. Kullanıcıların programlama dilleri ve teknolojiler hakkında çeşitli etiketlerle yeni sorular sorabileceği, sorulan sorulara cevaplar verip, verilen cevaplara yorum ve puan verebileceği bir uygulama.
 
-  Tüm kullanıcı girişleri Facebook API aracılığıyla Facebook hesapları üzerinden yapılacak. Kullanıcıların uygulama üzerinde sade birer profil sayfaları da bulunacak,
- bu profil sayfalarında cevaplarına göre aldıkları puanlar, profil fotoğrafı ve kendileri hakkında hazırladıkları kısa açıklamayla birlikte hakim olduğu
- teknolojilere ait tagler yer alacak, bu tagler soruların filtrelenmesini sağlamak üzere programlanacak.
+Tüm kullanıcı girişleri Facebook API aracılığıyla Facebook hesapları üzerinden yapılacak. Kullanıcıların uygulama üzerinde sade birer profil sayfaları da bulunacak, bu profil sayfalarında cevaplarına göre aldıkları puanlar, profil fotoğrafı ve kendileri hakkında hazırladıkları kısa açıklamayla birlikte hakim olduğu teknolojilere ait tagler yer alacak, bu tagler soruların filtrelenmesini sağlamak üzere programlanacak.
 
-Kullanılacak Teknolojiler:
-
-Back-End:
+# Back-End 
 
     Programming Lang: Node JS
     Application Framework: Express JS
     Database: MongoDB
     Orm Lib: Mongoose JS
 
-##Application Structure
+## Application Structure
   
     This app will not be SPA.
     
