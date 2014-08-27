@@ -22,7 +22,9 @@ Back-End:
     Orm Lib: Mongoose JS
 
 ##Application Structure
-
+  
+    This app will not be SPA.
+    
     #VIEWS
 
             Main View
