@@ -1,5 +1,4 @@
 <template name="layout">
-
     <div class="row demo-row">
         <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="container">
@@ -13,26 +12,26 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse-01">
                     <ul class="nav navbar-nav navbar-left">
-        						{{#each menus}}
-        							<li class="navbar-menu-li">
-        								<a href="{{pathFor name}}" data-menu-key="{{ name }}">
-        									{{ title }}
-        								</a>
-        							</li>
-        						{{/each }}
-                    <li class="navbar-menu-li">
-                        <a href="{{ pathFor 'askQuestion' }}">
-                            Ask Question
-                        </a>
-                      </li>
+                        {{#each menus}}
+                            <li class="navbar-menu-li">
+                                <a href="{{pathFor name}}" data-menu-key="{{ name }}">
+                                    {{ title }}
+                                </a>
+                            </li>
+                        {{/each }}
+                        <li class="navbar-menu-li">
+                            <a href="{{ pathFor 'askQuestion' }}">
+                                Ask Question
+                            </a>
+                        </li>
                     </ul>
                     {{> searchForm}}
                 </div><!-- /.navbar-collapse -->
             </div>
         </nav><!-- /navbar -->
     </div> <!-- /row -->
-	<div class="container">
-		{{> yield}}
-		{{> footer}}
-	</div>
+    <div class="container">
+        {{> yield}}
+        {{> footer}}
+    </div>
 </template>
