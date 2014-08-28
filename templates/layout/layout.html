@@ -12,17 +12,19 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse-01">
-                    <ul class="nav navbar-nav navbar-left">           
-						{{#each menus}}
-							<li class="navbar-menu-li">
-								<a href="{{pathFor name}}" data-menu-key="{{ name }}">
-									{{ title }}
-								</a>
-							</li>
-						{{/each }}
-                        <a class="btn btn-danger navbar-btn" href="{{ pathFor 'askQuestion' }}">
+                    <ul class="nav navbar-nav navbar-left">
+        						{{#each menus}}
+        							<li class="navbar-menu-li">
+        								<a href="{{pathFor name}}" data-menu-key="{{ name }}">
+        									{{ title }}
+        								</a>
+        							</li>
+        						{{/each }}
+                    <li class="navbar-menu-li">
+                        <a href="{{ pathFor 'askQuestion' }}">
                             Ask Question
-                        </a>                            
+                        </a>
+                      </li>
                     </ul>
                     {{> searchForm}}
                 </div><!-- /.navbar-collapse -->
