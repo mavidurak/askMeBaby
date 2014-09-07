@@ -15,19 +15,7 @@ Router.configure({
 Router.map(function() {
     this.route('home', {path: '/'});
     this.route('login', {path: '/login'});
-    this.route('register', {path: '/register'});
     this.route('profile', {path: '/profile'});
-    this.route('askQuestion', {path: '/question/ask'});
+    this.route('askQuestion', {path: '/ask/question'});
+    this.route('questionDetail', {path: '/question/:_id'});
 });
-
-// Navbar Menus For Titles
-if (Meteor.isClient) {
-
-    Template.layout.menus = [
-        {name: 'home', title: 'Home'},
-        {name: 'login', title: 'Login'},
-        {name: 'register', title: 'Register'},
-        {name: 'profile', title: 'Profile'}
-    ];
-
-}
