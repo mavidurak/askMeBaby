@@ -1,3 +1,33 @@
 <template name="profile">
-	<h1>Profile</h1>
+    {{#if currentUser}}
+    	<h1>{{ name }}</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Profil Bilgileri
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                GitHub Hesabı
+                                <span class="badge">
+                                    {{ githubUserName }}
+                                </span>
+                            </li>
+                            <li class="list-group-item">
+                                E-Posta
+                                <span class="badge">
+                                    {{ email }}
+                                </span>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{else}}
+        <h1>Auth Error!</h1>
+    {{/if }}
 </template>

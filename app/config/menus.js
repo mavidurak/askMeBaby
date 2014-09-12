@@ -3,7 +3,7 @@ if (Meteor.isClient) {
 
     Template.layout.menus = [
         {name: 'home', title: 'Home'},
-        {name: 'profile', title: 'Profile'}
+        {name: 'profile', title: 'Profile', login:true}
     ];
 
 }
