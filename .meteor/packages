@@ -9,4 +9,6 @@ insecure
 natestrauser:font-awesome
 mizzao:bootstrap-3
 iron:router
+accounts-github
+accounts-ui
 

@@ -8,6 +8,7 @@ Router.configure({
         $("ul").find("[data-menu-key='" + this.route.name +"']")
                .parent()
                .addClass('active');
+        $('.login-text-and-button').addClass('navbar-btn');
     }   
 });
 
@@ -19,3 +20,5 @@ Router.map(function() {
     this.route('askQuestion', {path: '/ask/question'});
     this.route('questionDetail', {path: '/question/:_id'});
 });
+
+
